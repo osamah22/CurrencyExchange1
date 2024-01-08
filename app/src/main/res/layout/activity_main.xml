@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context="com.currencyExchange.currencyexchange.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/titleTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="Currency Exchange"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="34sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/baseCurrency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10px"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/primaryButtonColor"
+                        android:focusedByDefault="false"
+                        android:onClick="showCurrencies"
+                        android:text="Base Currency: "
+                        android:textColor="@color/primaryButtonTextColor" />
+
+                    <Button
+                        android:id="@+id/about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10px"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/primaryButtonColor"
+                        android:clickable="false"
+                        android:onClick="about"
+                        android:text="Where data is coming from?"
+                        android:textColor="@color/primaryButtonTextColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10px">
+
+                    <EditText
+                        android:id="@+id/searchView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5px"
+                        android:background="@drawable/search_bar"
+                        android:backgroundTint="#E2E9EF"
+                        android:cursorVisible="false"
+                        android:ems="10"
+                        android:focusableInTouchMode="true"
+                        android:focusedByDefault="false"
+                        android:gravity="center"
+                        android:hint="Search"
+                        android:inputType="text"
+                        android:padding="30px"
+                        android:textColor="@color/primaryTextColor" />
+
+                    <EditText
+                        android:id="@+id/amountEt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5px"
+                        android:background="@drawable/search_bar"
+                        android:backgroundTint="#E2E9EF"
+                        android:cursorVisible="false"
+                        android:ems="10"
+                        android:focusableInTouchMode="true"
+                        android:focusedByDefault="false"
+                        android:gravity="center"
+                        android:hint="Amount"
+                        android:inputType="text"
+                        android:padding="30px"
+                        android:textColor="@color/primaryTextColor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/CurrenciesLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ProgressBar
+                        android:id="@+id/loadingBar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:progressTint="#4CAF50"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

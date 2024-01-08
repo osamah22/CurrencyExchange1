@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/usdCurr"
+        android:title="usd"/>
+
+    <item android:id="@+id/sarCurr"
+        android:title="sar"/>
+
+    <item android:id="@+id/tryCurr"
+        android:title="try"/>
+
+    <item android:id="@+id/gbpCurr"
+        android:title="gbp"/>
+
+    <item android:id="@+id/eurCurr"
+        android:title="eur"/>
+
+    <item android:id="@+id/audCurr"
+        android:title="aud"/>
+
+    <item android:id="@+id/chfCurr"
+        android:title="chf"/>
+
+    <item android:id="@+id/cadCurr"
+        android:title="cad"/>
+
+    <item android:id="@+id/jpyCurr"
+        android:title="jpy"/>
+
+    <item android:id="@+id/plnCurr"
+        android:title="pln"/>
+
+    <item android:id="@+id/kztCurr"
+        android:title="kzt"/>
+
+    <item android:id="@+id/copCurr"
+        android:title="cop"/>
+
+    <item android:id="@+id/bhdCurr"
+        android:title="bhd"/>
+
+    <item android:id="@+id/egpCurr"
+        android:title="egp"/>
+
+    <item android:id="@+id/krwCurr"
+        android:title="krw"/>
+
+    <item android:id="@+id/dzdCurr"
+        android:title="dzd"/>
+
+    <item android:id="@+id/pabCurr"
+        android:title="pab"/>
+
+    <item android:id="@+id/hkdCurr"
+        android:title="hkd"/>
+
+    <item android:id="@+id/madCurr"
+        android:title="mad"/>
+
+    <item android:id="@+id/zarCurr"
+        android:title="zar"/>
+
+    <item android:id="@+id/iqdCurr"
+        android:title="iqd"/>
+
+    <item android:id="@+id/bobCurr"
+        android:title="bob"/>
+
+    <item android:id="@+id/kwdCurr"
+        android:title="kwd"/>
+
+    <item android:id="@+id/thbCurr"
+        android:title="thb"/>
+
+    <item android:id="@+id/twdCurr"
+        android:title="twd"/>
+
+    <item android:id="@+id/uzsCurr"
+        android:title="uzs"/>
+
+    <item android:id="@+id/omrCurr"
+        android:title="omr"/>
+
+    <item android:id="@+id/penCurr"
+        android:title="pen"/>
+
+    <item android:id="@+id/tjsCurr"
+        android:title="tjs"/>
+
+    <item android:id="@+id/sekCurr"
+        android:title="sek"/>
+
+    <item android:id="@+id/sgdCurr"
+        android:title="sgd"/>
+
+    <item android:id="@+id/hufCurr"
+        android:title="huf"/>
+
+    <item android:id="@+id/uahCurr"
+        android:title="uah"/>
+
+    <item android:id="@+id/clpCurr"
+        android:title="clp"/>
+
+    <item android:id="@+id/dopCurr"
+        android:title="dop"/>
+
+    <item android:id="@+id/cnyCurr"
+        android:title="cny"/>
+
+    <item android:id="@+id/iskCurr"
+        android:title="isk"/>
+
+    <item android:id="@+id/aznCurr"
+        android:title="azn"/>
+
+    <item android:id="@+id/htgCurr"
+        android:title="htg"/>
+
+    <item android:id="@+id/angCurr"
+        android:title="ang"/>
+
+    <item android:id="@+id/lbpCurr"
+        android:title="lbp"/>
+
+    <item android:id="@+id/myrCurr"
+        android:title="myr"/>
+
+    <item android:id="@+id/irrCurr"
+        android:title="irr"/>
+
+    <item android:id="@+id/uyuCurr"
+        android:title="uyu"/>
+
+    <item android:id="@+id/jodCurr"
+        android:title="jod"/>
+
+    <item android:id="@+id/phpCurr"
+        android:title="php"/>
+
+    <item android:id="@+id/xofCurr"
+        android:title="xof"/>
+
+    <item android:id="@+id/lydCurr"
+        android:title="lyd"/>
+
+    <item android:id="@+id/nzdCurr"
+        android:title="nzd"/>
+
+    <item android:id="@+id/ngnCurr"
+        android:title="ngn"/>
+
+    <item android:id="@+id/rsdCurr"
+        android:title="rsd"/>
+
+    <item android:id="@+id/nokCurr"
+        android:title="nok"/>
+
+    <item android:id="@+id/qarCurr"
+        android:title="qar"/>
+
+    <item android:id="@+id/czkCurr"
+        android:title="czk"/>
+
+    <item android:id="@+id/bynCurr"
+        android:title="byn"/>
+
+    <item android:id="@+id/arsCurr"
+        android:title="ars"/>
+
+    <item android:id="@+id/vesCurr"
+        android:title="ves"/>
+
+    <item android:id="@+id/bdtCurr"
+        android:title="bdt"/>
+
+    <item android:id="@+id/ronCurr"
+        android:title="ron"/>
+
+    <item android:id="@+id/mdlCurr"
+        android:title="mdl"/>
+
+    <item android:id="@+id/crcCurr"
+        android:title="crc"/>
+
+    <item android:id="@+id/aedCurr"
+        android:title="aed"/>
+
+    <item android:id="@+id/idrCurr"
+        android:title="idr"/>
+
+    <item android:id="@+id/mxnCurr"
+        android:title="mxn"/>
+
+    <item android:id="@+id/amdCurr"
+        android:title="amd"/>
+
+    <item android:id="@+id/pygCurr"
+        android:title="pyg"/>
+
+    <item android:id="@+id/brlCurr"
+        android:title="brl"/>
+
+    <item android:id="@+id/inrCurr"
+        android:title="inr"/>
+
+    <item android:id="@+id/nprCurr"
+        android:title="npr"/>
+
+    <item android:id="@+id/xafCurr"
+        android:title="xaf"/>
+
+    <item android:id="@+id/kgsCurr"
+        android:title="kgs"/>
+
+    <item android:id="@+id/dkkCurr"
+        android:title="dkk"/>
+
+    <item android:id="@+id/lkrCurr"
+        android:title="lkr"/>
+
+    <item android:id="@+id/tndCurr"
+        android:title="tnd"/>
+
+    <item android:id="@+id/vndCurr"
+        android:title="vnd"/>
+
+    <item android:id="@+id/tmtCurr"
+        android:title="tmt"/>
+
+    <item android:id="@+id/pkrCurr"
+        android:title="pkr"/>
+
+    <item android:id="@+id/bgnCurr"
+        android:title="bgn"/>
+
+    <item android:id="@+id/rubCurr"
+        android:title="rub"/>
+
+    <item android:id="@+id/gelCurr"
+        android:title="gel"/>
+
+</menu>
